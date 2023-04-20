@@ -74,7 +74,7 @@ a:hover, a:focus {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
@@ -86,7 +86,7 @@ a:hover, a:focus {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
@@ -120,13 +120,11 @@ a:hover, a:focus {
     list-style: none;    
 }
 
-.list :hover {
+.list:hover,
+.list:focus {
     color: #404bbf;
 }
 
-.list :focus {
-    color: #404bbf;
-}
 
 .span {
     color: #2e2f42;
@@ -202,8 +200,7 @@ a:hover, a:focus {
     width: 169px;
     height: 56px;
     left: 636px;
-    top: 428px;
-    background-color: #4D5AE5;
+    top: 428px;    
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -213,6 +210,12 @@ a:hover, a:focus {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
+    background-color: #4D5AE5
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
 }
 
 
@@ -306,30 +309,15 @@ background: #2E2F42;
     color: #4D5AE5;
     background-color: #F4F4FD;
 }
-.button {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;      
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background: #404BBF;
-    background-color: #F4F4FD;
-    cursor: pointer;
+.button {    
+            
 }
-.list-btn :hover {
+.list-btn:hover,
+.list-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
-.list-btn :focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
 
 /* Portfolio section */
 .portfolio {
