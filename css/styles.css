@@ -120,8 +120,8 @@ a:hover, a:focus {
     list-style: none;    
 }
 
-.list:hover,
-.list:focus {
+.list :hover,
+.list :focus {
     color: #404bbf;
 }
 
@@ -310,6 +310,12 @@ background: #2E2F42;
     background-color: #F4F4FD;
 }
 
+.btn :hover,
+.btn :focus {    
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 .button { 
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -323,6 +329,11 @@ background: #2E2F42;
     cursor: pointer; 
     color: #4D5AE5;
     background-color: #F4F4FD;            
+}
+.button :hover,
+.button :focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .list-btn:hover,
