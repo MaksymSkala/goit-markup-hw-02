@@ -176,6 +176,14 @@ a:hover, a:focus {
     color: #434455;
 }
 
+.header-contact-mail {
+    color: #434455;
+}
+
+.header-contact-tel {
+    color: #434455;
+}
+
 .main-title {
     color: #FFFFFF;
 }
@@ -309,8 +317,8 @@ background: #2E2F42;
     background-color: #404BBF;
 }
 
-.btn :hover,
-.btn :focus {    
+.btn:hover,
+.btn:focus {    
     color: #FFFFFF;    
 }
 
