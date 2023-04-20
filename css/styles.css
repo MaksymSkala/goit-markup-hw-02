@@ -175,10 +175,10 @@ a:hover, a:focus {
     color: #434455;
 }
 .header-contact-mail {
-    color: #434455
+    color: #434455;
 }
 .header-contact-tel {
-    color: #434455
+    color: #434455;
 }
 
 .main-title {
@@ -210,7 +210,7 @@ a:hover, a:focus {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
 }
 
 .hero-btn :hover,
@@ -311,8 +311,12 @@ background: #2E2F42;
 
 .btn :hover,
 .btn :focus {    
-    color: #FFFFFF;
     background-color: #404BBF;
+}
+
+.btn :hover,
+.btn :focus {    
+    color: #FFFFFF;    
 }
 
 .button { 
