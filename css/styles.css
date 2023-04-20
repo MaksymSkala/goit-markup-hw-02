@@ -117,11 +117,17 @@ a:hover, a:focus {
 }
 
 .list {
-    list-style: none;
+    list-style: none;    
 }
+
+.list :hover, :focus {
+    color: #404bbf;
+}
+
 .span {
     color: #2e2f42;
 }
+
 /* Header styles */
 
 .header {
@@ -156,9 +162,7 @@ a:hover, a:focus {
     
 }
 
-:hover, :focus {
-    color: #404bbf;
-}
+
 .header-contact {
     font-family: 'Roboto';
     font-style: normal;
@@ -196,7 +200,7 @@ a:hover, a:focus {
     left: 636px;
     top: 428px;
     background: #4D5AE5;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -313,7 +317,10 @@ background: #2E2F42;
     background: #404BBF;
     background-color: #F4F4FD;
     cursor: pointer;
-
+}
+.list-btn :hover, :focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* Portfolio section */
