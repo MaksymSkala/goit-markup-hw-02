@@ -120,7 +120,11 @@ a:hover, a:focus {
     list-style: none;    
 }
 
-.list :hover, :focus {
+.list :hover {
+    color: #404bbf;
+}
+
+.list :focus {
     color: #404bbf;
 }
 
@@ -199,7 +203,6 @@ a:hover, a:focus {
     height: 56px;
     left: 636px;
     top: 428px;
-    background: #4D5AE5;
     background-color: #4D5AE5;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
@@ -318,7 +321,12 @@ background: #2E2F42;
     background-color: #F4F4FD;
     cursor: pointer;
 }
-.list-btn :hover, :focus {
+.list-btn :hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.list-btn :focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
@@ -328,8 +336,7 @@ background: #2E2F42;
 }
 .section-title {
 }
-.portfolio-link {
-}
+
 .portfolio-item {
 }
 .portfolio-img {
