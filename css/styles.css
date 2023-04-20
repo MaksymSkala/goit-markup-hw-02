@@ -30,10 +30,11 @@
     background-color: #FFFFFF;
 }
 
-/* a:hover, a:focus { 
-    color: #31d0aa;
-    background-color: #4d5ae5;
-}*/
+a:hover, a:focus { 
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 .main-title {
     font-size: 56px;
     font-family: Roboto, sans-serif;
@@ -174,12 +175,6 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-contact-mail {
-    color: #434455;
-}
-.header-contact-tel {
-    color: #434455;
-}
 
 .main-title {
     color: #FFFFFF;
@@ -213,8 +208,8 @@
     background-color: #4D5AE5;
 }
 
-.hero-btn :hover,
-.hero-btn :focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404BBF;
 }
 
@@ -309,8 +304,8 @@ background: #2E2F42;
     background-color: #F4F4FD;
 }
 
-.btn :hover,
-.btn :focus {    
+.btn:hover,
+.btn:focus {    
     background-color: #404BBF;
 }
 
