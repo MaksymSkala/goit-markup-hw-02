@@ -115,6 +115,7 @@
     
 }
 .header-logo {    
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -137,7 +138,8 @@
 }
 
 
-.header-contact {        
+.header-contact {      
+    font-style: normal; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -164,12 +166,13 @@
     background: var(--color-navy-blue);
 }
 .hero-btn {
-    
+    font-family: "Roboto", sans-serif;
     border-radius: 4px;    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: var(--color-white);
     background-color: var(--color-iris);
 }
@@ -249,14 +252,16 @@ background: var(--color-grey);
 .button-section-item {
     
 }
-.btn {    
+.btn {
+    font-family: "Roboto", sans-serif;  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;      
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;   
+    letter-spacing: 0.04em;
+    cursor: pointer;   
     color: var(--color-iris);
     background-color: var(--color-cloud);
 }
