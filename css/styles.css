@@ -96,12 +96,6 @@
     list-style: none;    
 }
 
-.list :hover,
-.list :focus {
-    color: var(--color-ocean);
-}
-
-
 .span {
     color: var(--color-navy-blue);
 }
@@ -126,6 +120,12 @@
 
 .header-nav-list {
 }
+
+.header-nav-list :hover,
+.header-nav-list :focus {
+    color: var(--color-ocean);
+}
+
 .header-nav-item {    
     font-weight: 500;
     font-size: 16px;
@@ -152,6 +152,11 @@
 
 .header-contact-tel {
     color: var(--color-slate);
+}
+
+.contact-list :hover,
+.contact-list :focus {
+    color: var(--color-ocean);
 }
 
 .main-title {
@@ -188,7 +193,7 @@
 }
 
 .advantages-list {
-    list-style: none;
+    
 }
 
 .advantages-item {
@@ -216,7 +221,7 @@
     background-color: var(--color-cloud);
 }
 .team-link {
-    list-style: none;
+
 }
 .team-item {
     background-color: var(--color-white);
@@ -301,10 +306,6 @@ background: var(--color-grey);
 
 /* Portfolio section */
 .portfolio {
-}
-
-.portfolio-list {
-    list-style: none;
 }
 
 .section-title {
