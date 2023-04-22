@@ -188,7 +188,9 @@
 }
 
 .advantages-list {
+    list-style: none;
 }
+
 .advantages-item {
     color: var(--color-slate);
 }
@@ -197,8 +199,10 @@
 
 .specialization {
 }
-.specialization-list {
+
+.specialization-list {   
 }
+
 .specialization-item {
 }
 
@@ -212,6 +216,7 @@
     background-color: var(--color-cloud);
 }
 .team-link {
+    list-style: none;
 }
 .team-item {
     background-color: var(--color-white);
@@ -287,22 +292,21 @@ background: var(--color-grey);
     color: var(--color-iris);
     background-color: var(--color-cloud);            
 }
+
 .button :hover,
 .button :focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
 }
 
-.list-btn:hover,
-.list-btn:focus {
-    color: var(--color-white);
-    background-color: var(--color-ocean);
-}
-
-
 /* Portfolio section */
 .portfolio {
 }
+
+.portfolio-list {
+    list-style: none;
+}
+
 .section-title {
 }
 
